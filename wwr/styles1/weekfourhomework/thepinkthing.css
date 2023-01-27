@@ -1,0 +1,11 @@
+header{
+font-size: 200px;
+}
+header:hover {
+color: #000000;
+}
+body { 
+    background-color: #FCA6C9;
+    color: #FFFFFF;
+}
+p.b { text-align-last: center; }
