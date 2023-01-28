@@ -1,3 +1,4 @@
+<div> 
 <link rel="stylesheet" href="styles/style.css">
 <body>
 body {
@@ -103,4 +104,5 @@ footer p {
 }  
 footer p a:hover {
     text-decoration: underline;
-}  
+} 
+</div> 
