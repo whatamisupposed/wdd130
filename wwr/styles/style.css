@@ -105,4 +105,74 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+footer {
+    background-color: steelblue;
+    color: white;
+}
 </div> 
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+  }
+  .msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+  body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+  #logo_link {
+    text-decoration: none;
+    color: #370ab1;
+    text-align: center;
+    padding-top: 5px;
+}
+.book, .join {
+    text-decoration: none;
+    color: #370ab1;
+    text-align: center;
+    padding: 15px 30px;
+}
+.icon {
+    text-decoration: none;
+    color: #3108a0;
+    text-align: center;
+    padding-top: 10px;
+}
+.msg {
+    text-decoration: none;
+    color: #370ab1;
+    text-align: center;
+    padding: 35px;
+}
+.msg p {
+    text-decoration: none;
+    color: #370ab1;
+    text-align: center;
+    padding-bottom: 15px;
+}
+footer {
+    text-decoration: none;
+    color: #370ab1;
+    text-align: center;
+    padding: 25px 50px;
+}
+footer .social img {
+    text-decoration: none;
+    color: #370ab1;
+    text-align: center;
+    padding-top: 15px;
+}
