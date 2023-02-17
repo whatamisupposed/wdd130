@@ -1,12 +1,12 @@
   
 /* CSS - Name: "positionstyles.css" */
-<link>https://byui-wdd.github.io/wdd130/images/example1.png</link> 
 .content1 {
     /* This is the parent of the activity 1 boxes. */
     display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         grid-gap: 20px;
+       
 }
 .red1 { 
 width: 100%; 
@@ -28,11 +28,15 @@ background-color: gold;
 width: 100%; 
 height: 100px; 
 background-color: blue; 
+grid-column: 1/3;
 } 
  /* Activity 2 styles */ 
 .content2 {
     /* This is the parent of the activity 2 boxes. */
-
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 .red2 {
 width: 100px; 
@@ -40,7 +44,7 @@ height: 100px;
 background-color: red; 
 } 
 .green2 { 
-width: 100px; 
+width: 200px; 
 height: 100px; 
 background-color: green; 
  } 
@@ -57,6 +61,10 @@ background-color: blue;
  /* Activity 3 styles */ 
 .content3 {
     /* This is the parent of the activity 3 boxes. */
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 .red3 {
 width: 100px; 
@@ -64,7 +72,7 @@ height: 100px;
 background-color: red; 
  } 
 .green3 {
-width: 100px; 
+width: 200px; 
 height: 100px; 
 background-color: green;
  } 
@@ -74,7 +82,7 @@ height: 100px;
 background-color: gold; 
  } 
 .blue3 {
-width: 100px;
+width: 100%;
 height: 100px; 
 background-color: blue; 
  } 
@@ -89,7 +97,7 @@ height: 100px;
 background-color: red; 
  } 
 .green4 {
-width: 100px; 
+width: 200px; 
 height: 100px; 
 background-color: green; 
 } 
@@ -99,7 +107,7 @@ height: 100px;
 background-color: gold; 
  } 
 .blue4 {
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: blue; 
  } 
@@ -126,13 +134,14 @@ background-color: gold;
 
 } 
 .blue5 {
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: blue; 
  } 
  /* Activity 6 styles */ 
  .content6 {
     /* This is the parent of the activity 6 boxes. */
+    
 }
 .red6 {
 width: 100px; 
@@ -140,7 +149,7 @@ height: 100px;
 background-color: red; 
 } 
 .green6 {
-width: 100px; 
+width: 200px; 
 height: 100px; 
 background-color: green; 
  } 
@@ -150,7 +159,7 @@ height: 100px;
 background-color: gold; 
 } 
 .blue6 {
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: blue; 
 } 
@@ -174,6 +183,7 @@ padding: .5em;
 position: relative;
 margin: 1em 0;
 }
+
 .hint h3 {
 margin: 0;
 }
