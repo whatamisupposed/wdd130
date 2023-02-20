@@ -8,9 +8,9 @@ header {
     color: #729690;
 }
 nav a:hover {
-    background-color:#3108a0;
+    background-color:#6749b9;
      Syntax:#1d9c90;
-    color: #1d9c90;
+    color: #14aa9b;
 }
 .book, .join {
     text-align: center;
@@ -21,7 +21,7 @@ nav a:hover {
 
 }
 .book:hover, .join:hover {
-    background-color: #3108a0;
+    background-color: #2d2348;
     Syntax:#1d9c90;
     color: #1d9c90;
 }
