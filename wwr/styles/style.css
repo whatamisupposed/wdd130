@@ -79,16 +79,16 @@ footer a:hover{
      Syntax:#1d9c90 ;
 }
 .icon {
-    width: 80px;
+    width: 40px;
 }
 .logo {
-    width: 80px;
+    width: 40px;
 }
 #background {
-    height: 725px;
+    height: 325px;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 0.6em;
 }  
 footer p a:hover {
     text-decoration: underline;
