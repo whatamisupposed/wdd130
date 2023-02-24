@@ -41,7 +41,19 @@ img {
   margin: 0 auto;
   max-width: 300px;
 }
+h1 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
 h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
