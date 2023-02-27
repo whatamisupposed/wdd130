@@ -1,8 +1,8 @@
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #396E94   ;
-    --secondary-color: #E7C24F ;
-    --accent1-color: #A42212;
+    --secondary-color: #e7e44f ;
+    --accent1-color: #1f0450;
     --accent2-color: white;
   
     /* change the values below to your chosen font(s) */
@@ -16,8 +16,8 @@
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
     --paragraph-background-color: #396E94  ;
     --nav-link-color: #396E94;
-    --nav-background-color: #D4AC0D;
-    --nav-hover-link-color: white;
+    --nav-background-color: #6adffc;
+    --nav-hover-link-color: rgb(162, 25, 216);
     --nav-hover-background-color: #396E94;
   }
   

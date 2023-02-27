@@ -57,7 +57,7 @@ nav a {
     text-decoration: none;
 }
 .home-title{
-    background-color:  #3108a0;
+    background-color:  #12092c;
     Syntax:#1d9c90;
     color: #1d9c90;
 }
@@ -194,7 +194,7 @@ nav {
     grid-row: 1/3;
 }
 #hero-msg h4 {
-    color: white;
+    color: #1d9c90;
 }
 #hero {
     display: grid;
