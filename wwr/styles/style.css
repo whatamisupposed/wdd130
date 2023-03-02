@@ -17,7 +17,7 @@ header {
     color: #729690;
 }
 nav a:hover {
-    background-color:#18fcf0;
+    background-color:#1d9c90;
      Syntax:#1d9c90;
     color: #14aa9b;
 }
@@ -39,12 +39,12 @@ nav a:hover {
      Syntax:#1d9c90
 }
 .msg {
-    background-color: #731cbb;
+    background-color: #1d9c90;
     Syntax:#1d9c90
 }
 footer {
     text-align: center;
-    background-color:  #3108a0;
+    background-color:  #12092c;
     Syntax:#1d9c90;
     color: #1d9c90;
     text-decoration: none;
@@ -67,17 +67,17 @@ h4{
     color: #1d9c90;
 }
 .msg h2{
-    background-color:  #3108a0;
+    background-color:  #12092c;
     Syntax:#1d9c90;
     color: #1d9c90;
 }
 .msg p{
-    background-color:  #6568eb;
+    background-color:  #12092c;
     Syntax:#1d9c90;
     color: #1d9c90;
 }
 footer a{
-    background-color:  #3a65dd;
+    background-color: #12092c;
     Syntax:#1d9c90;
     color: #1d9c90;
 }
@@ -88,16 +88,17 @@ footer a:hover{
      Syntax:#1d9c90 ;
 }
 .icon {
-    width: 80px;
+    width: 100px;
 }
 .logo {
-    width: 80px;
+    width: 100px;
 }
 #background {
     height: 270px;
 }
 footer p {
     font-size: 0.6em;
+    margin-top: 15px;
 }  
 footer p a:hover {
     text-decoration: underline;
@@ -144,19 +145,19 @@ nav a {
 }
 .icon {
     text-decoration: none;
-    color: #3108a0;
+    color: #0b455c;
     text-align: center;
     padding-top: 10px;
 }
 .msg {
     text-decoration: none;
-    color: #370ab1;
+    color: #1d9c90;
     text-align: center;
     padding: 35px;
 }
 .msg p {
     text-decoration: none;
-    color: #370ab1;
+    color: #1d9c90;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -170,7 +171,7 @@ footer .social img {
     text-decoration: none;
     color: #370ab1;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 header {
     display: grid;
@@ -212,7 +213,7 @@ nav {
     z-index: -1;
 }
 .card-img, .mountains {
-    width: 100%;
+    width: 70%;
 }
 footer {
     background-color: #6f7364;
