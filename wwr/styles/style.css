@@ -12,7 +12,7 @@ h1 {
 }
 header {
     text-align: center;
-    background-color:#729690;
+    background-color:#2d2348;
     Syntax:#729690;
     color: #729690;
 }
@@ -175,7 +175,10 @@ footer .social img {
 }
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    text-align: center;
+    grid-template-columns: 200px auto;
+    margin-top: 10px;
+    width: 100%;
 }
 nav {
     display: flex;
@@ -213,6 +216,9 @@ nav {
     z-index: -1;
 }
 .card-img, .mountains {
+    width: 70%;
+}
+.card-icon, .rivers2 {
     width: 70%;
 }
 footer {
