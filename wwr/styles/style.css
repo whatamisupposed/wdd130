@@ -16,7 +16,8 @@ main section {
 }
 .button-box{ 
     text-align: center
- 
+  
+
 }
 #hero-msg h1{
 text-align: center
@@ -30,35 +31,32 @@ text-align: center
 header {
     display: grid;
     text-align: center;
-    width: 100%;
     background-color:#2d2348;
-    Syntax:#729690;
+ 
     color: #729690;
 }
 nav a:hover {
     background-color:#1d9c90;
-     Syntax:#1d9c90;
+ 
     color: #14aa9b;
 }
 .book, .join {
     text-align: center;
     background-color: #000000;
-     Syntax:#1d9c90;
+
     color:  #1d9c90;
     text-decoration: none;
     display: grid;
     text-align: center;
-    width: 100%;
 }
 .book:hover, .join:hover {
     background-color: #2d2348;
     display: grid;
     text-align: center;
-    width: 100%;
     color: #1d9c90;
 }
 #background {
-    background-color:#12092c;
+    background-color:#2d2348;
  
 }
 .msg {
@@ -80,7 +78,7 @@ nav a {
 }
 .home-title{
     background-color:  #12092c;
-   
+    text-align: center;
     color: #1d9c90;
 }
 h4{
@@ -132,6 +130,7 @@ nav a {
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
+    text-align: center;
   }
   .msg {
     background-color: #6f7364;
@@ -145,6 +144,10 @@ nav a {
     padding: 0;
   }
   h2 {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
     margin: 0;
   }
   #logo_link {
@@ -197,7 +200,9 @@ header {
     width: 100%;
 }
 nav {
+    text-align: center;
     display: flex;
+    grid-template-columns: 200px auto;
     justify-content: space-around;
 }
 #logo_link {
@@ -234,9 +239,6 @@ nav {
 .card-img, .mountains {
     width: 70%;
 }
-.card-icon, .rivers2 {
-    width: 70%;
-}
 footer {
     background-color: #6f7364;
     padding: 25px 50px;
@@ -271,6 +273,7 @@ footer {
     #hero, .home-grid {
         display: block;
         height: auto;
+        text-align: center;
     }
     nav, footer {
         flex-direction: column;
@@ -291,8 +294,13 @@ footer {
     .home-title {
         font-size: 25px;
         color: #6f7364;
+        text-align: center;
     }
     .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    .rivers2-card {
         margin: 50px auto;
         width: 60%;
     }
