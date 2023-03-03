@@ -10,8 +10,27 @@ h1 {
   justify-items: center;
   align-items: center;
 }
+main section {
+    text-align: center
+
+}
+.button-box{ 
+    text-align: center
+ 
+}
+#hero-msg h1{
+text-align: center
+}
+#hero-msg h4{
+    text-align: center
+    }
+    nav a{
+        text-align: center
+    }
 header {
+    display: grid;
     text-align: center;
+    width: 100%;
     background-color:#2d2348;
     Syntax:#729690;
     color: #729690;
@@ -27,65 +46,62 @@ nav a:hover {
      Syntax:#1d9c90;
     color:  #1d9c90;
     text-decoration: none;
-
+    display: grid;
+    text-align: center;
+    width: 100%;
 }
 .book:hover, .join:hover {
     background-color: #2d2348;
-    Syntax:#1d9c90;
+    display: grid;
+    text-align: center;
+    width: 100%;
     color: #1d9c90;
 }
 #background {
-    background-color:#3108a0;
-     Syntax:#1d9c90
+    background-color:#12092c;
+ 
 }
 .msg {
     background-color: #1d9c90;
-    Syntax:#1d9c90
+  
 }
 footer {
     text-align: center;
-    background-color:  #12092c;
-    Syntax:#1d9c90;
+    background-color:  #12092c;  
     color: #1d9c90;
     text-decoration: none;
 }
 nav a {
     text-align: center;
     background-color:  #4e676b;
-    Syntax:#1d9c90;
+    width: 100%;
     color: #1d9c90;
     text-decoration: none;
 }
 .home-title{
     background-color:  #12092c;
-    Syntax:#1d9c90;
+   
     color: #1d9c90;
 }
 h4{
     background-color:  #12092c;
-    Syntax:#1d9c90;
     color: #1d9c90;
 }
 .msg h2{
     background-color:  #12092c;
-    Syntax:#1d9c90;
     color: #1d9c90;
 }
 .msg p{
     background-color:  #12092c;
-    Syntax:#1d9c90;
     color: #1d9c90;
 }
 footer a{
     background-color: #12092c;
-    Syntax:#1d9c90;
     color: #1d9c90;
 }
 footer a:hover{
     background-color: #000000;
-    Syntax:#1d9c90;
     color:#3108a0;
-     Syntax:#1d9c90 ;
 }
 .icon {
     width: 100px;
@@ -292,3 +308,7 @@ footer {
         margin-top: 25px;
     }
 }
+a{
+    text-decoration: none;
+    color: steelblue
+ }
