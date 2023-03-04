@@ -1,24 +1,24 @@
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #396E94   ;
-    --secondary-color: #e7e44f ;
-    --accent1-color: #1f0450;
-    --accent2-color: white;
+    --primary-color: #ee8c0d   ;
+    --secondary-color: #af3314 ;
+    --accent1-color: #3d0a0a;
+    --accent2-color: rgb(0, 0, 0);
   
     /* change the values below to your chosen font(s) */
     --heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif;
   
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+    --headline-color-on-white: #af3314;  /* headlines on a white background */ 
     --headline-color-on-color: white; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+    --paragraph-color-on-white: #af3314; /* paragraph text on a white background */ 
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #396E94  ;
-    --nav-link-color: #396E94;
-    --nav-background-color: #6adffc;
-    --nav-hover-link-color: rgb(162, 25, 216);
-    --nav-hover-background-color: #396E94;
+    --paragraph-background-color: #af3314  ;
+    --nav-link-color: #af3314;
+    --nav-background-color: #ee8c0d ;
+    --nav-hover-link-color: rgb(0, 0, 0);
+    --nav-hover-background-color: #3d0a0a;
   }
   
   
