@@ -1,43 +1,62 @@
-:root {
-    /* change the values below to your colors from your palette */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
     --primary-color: #ee8c0d   ;
     --secondary-color: #af3314 ;
     --accent1-color: #3d0a0a;
     --accent2-color: rgb(0, 0, 0);
-  
-    /* change the values below to your chosen font(s) */
+
     --heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif;
   
-    /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #af3314;  /* headlines on a white background */ 
-    --headline-color-on-color: white; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #af3314; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --headline-color-on-white: #af3314;  
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #af3314;  
+    --paragraph-color-on-color: white; 
     --paragraph-background-color: #af3314  ;
     --nav-link-color: #af3314;
     --nav-background-color: #ee8c0d ;
     --nav-hover-link-color: rgb(0, 0, 0);
     --nav-hover-background-color: #3d0a0a;
-  }
-  
-  
-  /*  Look around below...but DON'T CHANGE ANYTHING! */
-  
+}
   body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
+    text-decoration: none;
     text-align: center;
+    display: grid;
+  }
+  a{
+    text-decoration: none;
+    color: #ee8c0d ;
   }
   img {
     display: block;
     margin: 0 auto;
+    margin-bottom: 100px;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
+  }
+  h6 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    background: #3d0a0a;
+  
+  }
+  h3 {
+    background: #ee8c0d;
+    margin-top: 100px;
+    position: float;
   }
   h4 {
     margin-top: 500px;
@@ -45,6 +64,7 @@
   h2 {
     text-align: center;
   }
+
   hr {
     height: 3px;
     margin: 35px 0;
@@ -59,11 +79,11 @@
   header > h1, header > h2 {
     color: var(--headline-color-on-color);
   }
-  
   p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
     padding: 1em;
+    text-decoration: none;
   }
   .colors {
     width: 100%;
@@ -141,17 +161,17 @@
   }
   .sm-home {
     grid-area: home;
-    background-color: #ccc;
+    background-color: rgb(65, 3, 3);
     line-height: 3em;
   }
   .sm-page2 {
     grid-area: page2;
-    background-color: #ccc;
+    background-color: rgb(65, 3, 3);
     line-height: 3em;
   }
   .sm-page3 {
     grid-area: page3;
-    background-color: #ccc;
+    background-color: rgb(65, 3, 3);
     line-height: 3em;
   }
   
