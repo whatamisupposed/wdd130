@@ -1,10 +1,15 @@
 
 body {
-    max-width: 1600px;
+    max-width: 1100px;
     text-align: center;
-    background-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
 h1 {
     text-align: center;
   justify-content: center;
@@ -130,10 +135,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
-footer {
-    background-color: rgb(180, 70, 88);
-    color: white;
-}
 nav a {
     text-decoration: none;
     color: #fcfbfb;
@@ -149,13 +150,7 @@ nav a {
     background-color: #6f7364;
     line-height: 1.5em;
   }
-  body {
-    background-color: #fcfbfb;
-    font-family: Raleway, Arial, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-  }
+
   h2 {
     justify-content: center;
     align-content: center;
@@ -192,12 +187,6 @@ nav a {
     color: #af3314;
     text-align: center;
     padding-bottom: 15px;
-}
-footer {
-    text-decoration: none;
-    color: #3d0a0a;
-    text-align: center;
-    padding: 25px 50px;
 }
 footer .social img {
     text-decoration: none;
@@ -238,14 +227,6 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-}
-footer {
-    background-color: #6f7364;
-    padding: 25px 50px;
-    margin-top: 200px; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 .card-img {
     border: 10px solid #6d6018;
