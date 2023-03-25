@@ -2,25 +2,25 @@
 
 :root{
     --primary-color: #ee8c0d   ;
-    --secondary-color: #af3314 ;
+    --secondary-color: #8b2f17 ;
     --accent1-color: #3d0a0a;
     --accent2-color: rgb(0, 0, 0);
 
     --heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif;
   
-    --headline-color-on-white: #af3314;  
+    --headline-color-on-white: #8b2f17;  
     --headline-color-on-color: white; 
-    --paragraph-color-on-white: #af3314;  
+    --paragraph-color-on-white: #3d0a0a;  
     --paragraph-color-on-color: white; 
-    --paragraph-background-color: #af3314  ;
-    --nav-link-color: #af3314;
+    --paragraph-background-color: #8b2f17  ;
+    --nav-link-color: #8b2f17;
     --nav-background-color: #ee8c0d ;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #3d0a0a;
 }
   body {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
@@ -35,7 +35,7 @@
   img {
     display: block;
     margin: 0 auto;
-    margin-bottom: 100px;
+
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -49,7 +49,7 @@
     font-size: 18px;
     text-decoration: none;
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: #3d0a0a;
     background: #3d0a0a;
   
   }
@@ -57,6 +57,7 @@
     background: #ee8c0d;
     margin-top: 100px;
     position: float;
+    padding: 1em;
   }
   h5 {
     font-size: 20px;
@@ -198,7 +199,15 @@
   .home-title {
     display: grid; 
     background-color: #ee8c0d;
-color: #af3314;
+color: #8b2f17;
 position: float;
 text-align: center
+}
+footer {
+    text-align: center;
+    color:  #ee8c0d;  
+    background-color: #8b2f17;
+    text-decoration: none;
+    margin-top: 100px;
+padding: 2em;
 }

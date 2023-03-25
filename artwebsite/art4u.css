@@ -81,12 +81,7 @@ nav a:hover {
     background-color: #af3314;
   
 }
-footer {
-    text-align: center;
-    background-color:  #ee8c0d;  
-    color: #af3314;
-    text-decoration: none;
-}
+
 nav a {
     text-align: center;
     background-color:  #4e676b;
@@ -187,12 +182,6 @@ nav a {
     color: #af3314;
     text-align: center;
     padding-bottom: 15px;
-}
-footer .social img {
-    text-decoration: none;
-    color: #3d0a0a;
-    text-align: center;
-    padding-top: 10px;
 }
 header {
     display: grid;
