@@ -56,7 +56,6 @@
   h3 {
     background: #ee8c0d;
     margin-top: 100px;
-    position: float;
     padding: 1em;
   }
   h5 {
@@ -200,7 +199,6 @@
     display: grid; 
     background-color: #ee8c0d;
 color: #8b2f17;
-position: float;
 text-align: center
 }
 footer {
