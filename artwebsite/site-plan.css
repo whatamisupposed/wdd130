@@ -43,16 +43,26 @@
   }
   h6 {
     max-width: 200px;
+    min-width: 200px;
     margin: 0 auto;
     padding: 4em;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
     font-family: var(--heading-font);
-    color: #3d0a0a;
+    color: #ee8c0d;
     background: #3d0a0a;
-  
   }
+  .card {
+    background-color: #3d0a0a;
+    color: white;
+    text-align: center;
+  }
+  .cards {
+    display: grid;
+    margin: 0 auto;
+  }
+
   h3 {
     background: #ee8c0d;
     margin-top: 100px;
