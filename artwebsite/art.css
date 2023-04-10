@@ -1,0 +1,87 @@
+/* Reset styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply Slack's background color to the page */
+  body {
+    background-color: #f2f4f5;
+  }
+  
+  /* Style the page header */
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3f0e40;
+    margin: 30px 0;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3f0e40;
+    margin: 20px 0;
+  }
+  
+  /* Style the links in the resource lists */
+  a {
+    color: #36a64f;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #0d743f;
+  }
+  
+  /* Style the unordered lists */
+  ul {
+    margin: 0 0 20px 20px;
+  }
+  
+  ul li {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3f0e40;
+    list-style-type: none;
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    position: absolute;
+    top: 6px;
+    left: -20px;
+    color: #36a64f;
+  }
+  
+  /* Style the ordered lists */
+  ol {
+    margin: 0 0 20px 20px;
+  }
+  
+  ol li {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3f0e40;
+    list-style-type: decimal;
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+  
+  /* Apply a border to the bottom of each list item */
+  li {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+  }
+  
+  /* Remove the border from the last list item */
+  li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
